@@ -17,6 +17,7 @@ function smaller(str1,str2){
 
 }
 // 2 - Write a function called counter that, when invoked, always returns a number that is one more than the previous invocation. For instance:
+<<<<<<< HEAD
 // function counting(n) { 
 	var i = 1;
    function counting(n){\
@@ -36,8 +37,14 @@ function smaller(str1,str2){
 // } 
 // counting(5); // => '1, 2, 3, 4, 5' 
 // counting(1); // => '1' 
+=======
+// function counting(n) {
+// TODO: your code here
+// }
+// counting(5); // => '1, 2, 3, 4, 5'
+// counting(1); // => '1'
+>>>>>>> 4ab3967cd0764bea1a7614a1d87ac2da4d6ea391
 // counting(3); // => '1, 2, 3'
-
 
 // 3 -  Meet & Greet: n numbers are coming to a party for numbers. Introduce them each to all the guests as they arrive. You should end up with output looking something like this one for n = 5
 // welcome 1
@@ -61,6 +68,7 @@ while(i<n-1){
 }
 
 // 4- Write a function shortestWord that works like longestWord, but returns the shortest word instead.
+<<<<<<< HEAD
 
 function shortestWord(str1,str2){
 		if(str1.length < str2.length)
@@ -70,3 +78,5 @@ function shortestWord(str1,str2){
 	else 
 		return str2 + ', is the smaller string.';
 }
+=======
+>>>>>>> 4ab3967cd0764bea1a7614a1d87ac2da4d6ea391
