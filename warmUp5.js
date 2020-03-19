@@ -15,6 +15,7 @@ function(n1,n2){
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
 
+
 function isEven(x, y) {
 	var hold = x;
 	if((y - x) % 2 === 0)    // To find the number of even integers between x and y and use it as the length of array
@@ -36,6 +37,8 @@ for (var i = 0; i < len - 1; i++) {
     	arr.unshift(hold++);
      return arr;
    }
+// function isEven(x, y) {
+
 // }
 //3) write a function named sum that
 // - Use a while loop to add up the numbers from x to y.
