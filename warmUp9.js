@@ -19,6 +19,7 @@ function isArray(input){
 //2-Write a JavaScript function to get the first n element of an array.
 //ex  first([1,2,3],1)=>[1]
 <<<<<<< HEAD
+<<<<<<< HEAD
 //    first([1,2,3,4]2)=>[1,2]
 // a loop is needed to find the required number of elements, same n given by the
 // user will be used but after decreasing 1, so it matches the current element required in the array since arrays
@@ -31,6 +32,9 @@ function first(array,n){
 
 	return arr
 }
+=======
+//    first([1,2,3,4]2)=>[1,2]
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
 
 
 //    first([1,2,3,4],2)=>[1,2]

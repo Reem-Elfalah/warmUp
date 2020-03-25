@@ -7,6 +7,7 @@ function myTrueFun(){    //declare a function called myTrueFun
 	return true;         //returns true whenever it's called.
 }
 
+<<<<<<< HEAD
 // 2- Define a function called color in which returns true
 // if type of the input is string and returns false otherwise.
 
@@ -36,3 +37,10 @@ return "number is prime"
 function equal(n1,n2){    //declare function called equal.
 	return n1 === n2;     //return the result of the equality.
 }
+=======
+
+// 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not.
+
+// 4-write a function that accepts two numbers as parameters and returns true if the two parameters have the same value , false if not
+
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
